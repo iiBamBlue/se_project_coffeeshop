@@ -6,7 +6,7 @@
   flex-direction: column;
   background-image: url(../images/background_header.svg);
   box-sizing: border-box;
-  position: relative;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -21,29 +21,31 @@
 
 .header__title {
   margin: 183px 0 0;
+  max-width: 729px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
-  max-width: 729px;
+  color: #000;
 }
 
 .header__span-accent {
-  color: #3f96f3;
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
+  color: #3f96f3;
 }
 
 .header__description {
+  margin: 28px 0 0;
+  max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  margin: 28px 0 0;
-  max-width: 683px;
+  color: #000;
 }
 
 .header__paragraph {

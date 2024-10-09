@@ -10,17 +10,18 @@
 
 .form__input {
   display: block;
-  width: 100%;
+  margin: 8px 0 32px;
   padding: 15px 20px;
+  width: 100%;
   box-sizing: border-box;
   border: 1px solid #838383;
   border-radius: 4px;
-  margin: 8px 0 32px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  color: #000;
 }
 
 input::placeholder {
@@ -33,20 +34,21 @@ input::placeholder {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #000;
 }
 
 .form__button {
+  margin-bottom: 32px;
+  padding: 20px 0;
   width: 100%;
   border: none;
-  padding: 20px 0;
   border-radius: 4px;
-  margin-bottom: 32px;
-  color: #fff;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #fff;
   background-color: #1878dc;
   transition: background-color 1s 0s;
 }
@@ -71,5 +73,6 @@ input::placeholder {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;*/
+    line-height: 20px;
+    color: #000*/
 }

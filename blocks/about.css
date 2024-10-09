@@ -1,0 +1,39 @@
+.about {
+  margin: 0;
+  padding: 100px 80px 173px;
+  background-color: #0a2850;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  margin: 0;
+  max-width: 251px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.about__content {
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__paragraph {
+  margin: 0;
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.about__circle {
+  position: absolute;
+  size: 426px 426px;
+  border-radius: 50%;
+  background-image: #1878dc;
+}
