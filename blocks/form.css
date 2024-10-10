@@ -10,15 +10,13 @@
 
 .form__input {
   display: block;
-  margin: 8px 0 32px;
   padding: 15px 20px;
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #838383;
   border-radius: 4px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+  margin: 8px 0 32px;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 20px;
   line-height: 30px;
   color: #000;
@@ -29,8 +27,7 @@ input::placeholder {
 }
 
 .form__label {
-  font-family: Inter;
-  font-style: normal;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -38,13 +35,12 @@ input::placeholder {
 }
 
 .form__button {
-  margin-bottom: 32px;
-  padding: 20px 0;
   width: 100%;
   border: none;
+  padding: 20px 0;
   border-radius: 4px;
-  font-family: Inter;
-  font-style: normal;
+  margin-bottom: 32px;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -69,7 +65,7 @@ input::placeholder {
   justify-content: center;
   gap: 12px;
   /* --i can hear Kevin say both answers right now so im not sure if i duplicate the text format or not
-    font-family: Inter;
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
