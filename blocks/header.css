@@ -4,8 +4,8 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  position: relative;
   background-image: url(../images/background_header.svg);
-  box-sizing: border-box;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,6 +14,7 @@
 
 .header__image {
   position: absolute;
+  box-sizing: border-box;
   top: 124px;
   right: 5px;
   width: 646px;
