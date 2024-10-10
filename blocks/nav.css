@@ -15,17 +15,16 @@
   padding: 0;
   display: flex;
   align-items: center;
-  column-gap: 20px;
   list-style-type: none;
   gap: 20px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #000;
 }
 
 .nav__link {
+  color: #000;
   text-decoration: none;
   cursor: pointer;
   transition: opacity 0.5s;

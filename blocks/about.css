@@ -6,7 +6,7 @@
   justify-content: space-between;
   position: relative;
   overflow: hidden;
-  z-index: 0;
+  z-index: 1;
 }
 
 .about__title {
@@ -46,7 +46,6 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #1878dc;
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
 

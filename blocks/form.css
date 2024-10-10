@@ -22,7 +22,7 @@
   color: #000;
 }
 
-input::placeholder {
+.form__input--placeholder {
   color: #838383;
 }
 
@@ -65,11 +65,4 @@ input::placeholder {
   display: flex;
   justify-content: center;
   gap: 12px;
-  /* --i can hear Kevin say both answers right now so im not sure if i duplicate the text format or not
-    font-family: "Inter", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000*/
 }

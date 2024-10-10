@@ -6,7 +6,7 @@
   flex-direction: column;
   background-image: url(../images/background_header.svg);
   box-sizing: border-box;
-  position: relative;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -17,6 +17,11 @@
   right: 5px;
   width: 646px;
   height: 568px;
+}
+
+/*this is so the text shows above logo during screen shrinkage. i culdnt get the z stack to work without ruining the layout*/
+.header__text {
+  z-index: 1;
 }
 
 .header__title {
@@ -34,8 +39,6 @@
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
   color: #3f96f3;
 }
 
