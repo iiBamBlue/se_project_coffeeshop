@@ -22,7 +22,7 @@
   color: #000;
 }
 
-.form__input--placeholder {
+.form__input::placeholder {
   color: #838383;
 }
 
