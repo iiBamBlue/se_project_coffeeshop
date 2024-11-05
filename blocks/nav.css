@@ -27,9 +27,10 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
-  transition: opacity 0.5s;
+  transition: opacity color 0.5s;
 }
 
 .nav__link:hover {
   opacity: 0.5;
+  color: #f3b6b6;
 }
